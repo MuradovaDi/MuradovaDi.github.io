@@ -7,7 +7,7 @@ const button = document.getElementById('btn');
 
 
 button.addEventListener('click', function() {
-    const inputValue = input.value.trim();
+    const inputValue = input.value;
     if (inputValue === "") {
         return;
     }
