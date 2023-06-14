@@ -1,5 +1,4 @@
 import {input, addRandom} from "./random.js";
-import {addArray} from "./array.js";
 import {addSet} from "./set.js";
 
 // DOM variables
@@ -13,7 +12,6 @@ button.addEventListener('click', function() {
         return;
     }
     
-    addArray();
     addSet();
     input.value = "";
 });
