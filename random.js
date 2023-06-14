@@ -8,6 +8,4 @@ function addRandom() {
     input.setAttribute('value', `${randomArray[randomNum]}`);
 };
 
-addRandom();
-
 export {input, addRandom}
